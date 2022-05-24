@@ -1,0 +1,275 @@
+
+.doverie{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(233, 213, 34);
+    border: black;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: url(back.jpg) no-repeat top;
+    background-size: 100%;
+    margin: 0%;
+    height: 100%;
+}
+.logo{
+
+ float: left;
+ position: relative;
+ 
+}
+
+.header{
+    position: relative;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 15%;    
+    background-color: #372f4b;
+    margin: 0;
+    padding: 0;
+    
+}
+.topnav {
+    background-color: rgb(75, 75, 75);
+    overflow: hidden;
+    height: 90px;
+    text-align: center;
+    
+    
+}
+.topnav a {
+    color: #fcfcfc;
+    text-align: ;
+    padding: 100% 100px ;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+footer{
+    position: fixed ;
+    bottom: 0;
+    width: 100%;
+    margin: 0;  
+    padding: 0;
+    height:auto;
+    background-color: #7a7a7a;;
+    
+}
+.downnav{
+    opacity: 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    list-style:none;
+    left: 100px;
+    text-align: center;
+   
+}
+
+
+.downnav2{
+    
+    font-family: sans-serif;
+    font-size: 10pt;
+    text-align: right;
+    list-style: none;
+    padding: 0 10px;
+    color: #3a3636;
+    
+    
+}
+.br{
+    opacity: 1;
+    padding: 0px 100px;
+    color: #3a3636;
+}
+.br:hover{
+    opacity: 0.6;
+    
+}
+.bo{
+    opacity: 1;
+    padding: 0px 100px;
+    color: #3a3636;
+    
+}
+.bo:hover{
+    opacity: 0.6;
+}
+.lo{
+    opacity: 1;
+    padding: 0px 100px ;
+    color: #3a3636;
+}
+.lo:hover{
+    opacity: 0.6;
+}
+.tef{
+    color: #3a3636;
+
+}
+.section-search button {
+  margin: 0;
+}
+.section-search form > * {
+  width: 100%;
+  height: 50px;
+}
+.section-search{
+flex-wrap: wrap!important;
+}
+.container {
+z-index: 2;
+position: relative;
+max-width: 1140px;
+width: 100%;
+margin: 0 auto;
+background-color: white;
+border-radius: 10px;;
+border-color: black;
+border-style: groove;
+border: 4px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+text-align: center;
+position: relative;
+padding: 15px 30px;
+color: black;
+margin: 30px auto;
+overflow: hidden;
+font-weight: bold;
+display: inline-block;
+box-shadow: 0px 5px 20px var(--blue);
+}
+
+.btn:after {
+content: '';
+display: block;
+position: absolute;
+top: 0;
+left: -20%;
+width: 20px;
+height: 100%;
+background: white;
+box-shadow: 0px 0px 5px white;
+transform: skewX(-25deg);
+animation: blink 3s ease infinite forwards;
+}
+
+.btn--success:hover {
+color: var(--green)!important;
+}
+.btn--success {
+box-shadow: 0px 5px 20px var(--green)!important;
+}
+.btn--success:before {
+background: var(--green)!important;
+}
+
+.btn--danger:hover {
+color: var(--red)!important;
+}
+.btn--danger {
+box-shadow: 0px 5px 20px var(--red)!important;
+}
+.btn--danger:before {
+background: var(--red)!important;
+}
+
+
+.btn--block {
+display: block;
+}
+
+.btn:before {
+content: '';
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: var(--blue);
+z-index: -1;
+}
+.btn:hover {
+color: var(--blue);
+}
+.btn:hover:before {
+width: 0%;
+}
+
+.btn--other {
+margin: 50px auto;
+}
+
+.btn--head {
+border: none;
+border-radius: 50px;
+}
+/*FLEX*/
+.flex {
+display: flex;
+}
+.flex-wrap {
+flex-wrap: wrap;
+}
+.flex-j-center {
+justify-content: center;
+}
+.flex-a-center {
+justify-content: center;
+}
+.flex-row {
+flex-direction: row;
+}
+.flex-col {
+flex-direction: column;
+}
+.flex-between {
+justify-content: space-between;
+}
+.news{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:auto;
+    list-style: none;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    height: auto;
+    width: 300px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

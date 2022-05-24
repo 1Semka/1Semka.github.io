@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+<meta charset="utf-8" />
+<link rel="stylesheet" href="cards.css">
+<title>IndexDrive</title>
+</head>
+<header>  
+</div>
+  <div class="topnav">
+    <div class="logo">
+      <a href="index.html"><img src="logotyp.png" alt="Loading...">  </a>
+  </div>
+  <a href="branches.html">Филиалы</a>
+  <a href="booking.html">Бронирование</a>
+  <a href="login.html">Вход</a>
+ 
+  </div>
+  <div class="binking">
+    <form class="binking__form">
+      <h2 class="binking__title">Введите данные карты для оплаты</h2>
+      <div class="binking__panels">
+        <div class="binking__panel binking__front-panel">
+          <img class="binking__form-bank-logo binking__hide">
+          <img class="binking__form-brand-logo binking__hide">
+          <div class="binking__front-fields">
+            <input name="cardnumber" autocomplete="cc-number" inputmode="numeric" pattern="[0-9 ]*" class="binking__field binking__number-field" type="text" placeholder="0000 0000 0000 0000">
+            <label class="binking__label binking__date-label">Valid thru</label>
+            <input name="ccmonth" autocomplete="cc-exp-month" inputmode="numeric" pattern="[0-9]*" class="binking__field binking__month-field binking__date-field" type="text" placeholder="MM">
+            <input name="ccyear" autocomplete="cc-exp-year" inputmode="numeric" pattern="[0-9]*" class="binking__field binking__year-field binking__date-field" type="text" placeholder="YY">
+          </div>
+        </div>
+        <div class="binking__panel binking__back-panel">
+          <input name="cvc" autocomplete="cc-csc" inputmode="numeric" pattern="[0-9]*" class="binking__field binking__code-field" type="password">
+          <label class="binking__label binking__code-label">Safety<br>code</label>
+        </div>
+      </div>
+      <label class="binking__save-card">
+        <input class="binking__save-card-checkbox" name="save" type="checkbox" /> <span>Сохранить карту для последующих платежей</span>
+      </label>
+      <div class="binking__saved-cards binking__hide">
+        <h2 class="binking__title">Или выберите одну из сохранённых карт</h2>
+        <div class="binking__cards">
+        </div>
+      </div>
+      <div class="binking__form-bottom">
+        <p class="binking__error binking__hide"></p>
+        <button class="binking__submit-button binking__button" type="submit">Оплатить</button>
+      </div>
+    </form>
+    <div class="binking__success binking__hide">
+      <h2 class="binking__title">Оплата произведена успешно</h2>
+      <button class="binking__reset-button binking__button" type="submit">Вернуться к форме оплаты</button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/imask@6"></script>
+  <script src="https://unpkg.com/popper.js@1"></script>
+  <script src="https://unpkg.com/tippy.js@5"></script>
+  <script src="index.js"></script>
+<footer>
+  <div class="downnav">
+    <h3><a class="br"href="branches.html" >Филиалы</a>
+     <a class="bo"href="booking.html">Бронирование</a>
+         <a class="lo"href="profile.html">Личный кабинет</a>
+         <a class="tef">Tелефон 8 (800) 555-35-35 </a>
+ </div>
+ <div class="downnav2">
+     Copyright © IndexDrive 2022 Все права защищены
+ </div>
+</footer>
+</body>
+</html>
